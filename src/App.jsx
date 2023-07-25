@@ -4,6 +4,7 @@ import Main from './layout/Main';
 import Header from './components/Header/Header';
 import Quiz from './components/Quiz/Quiz';
 import Statistic from './components/Statistic/Statistic';
+import Blog from './components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +22,10 @@ function App() {
         {
           path: '/statistic',
           element: <Statistic></Statistic>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
         }
 
       ]
