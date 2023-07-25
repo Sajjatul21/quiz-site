@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         'btn-color': '#deb069',
+        'dark-blue': '#1E2B3D'
       }
     },
   },
