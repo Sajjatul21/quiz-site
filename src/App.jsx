@@ -3,6 +3,7 @@ import './App.css';
 import Main from './layout/Main';
 import Header from './components/Header/Header';
 import Quiz from './components/Quiz/Quiz';
+import Statistic from './components/Statistic/Statistic';
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
           loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizItem}`),
           element: <Quiz></Quiz>
         },
+        {
+          path: '/statistic',
+          element: <Statistic></Statistic>
+        }
 
       ]
     }
