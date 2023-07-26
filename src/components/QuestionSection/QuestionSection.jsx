@@ -19,7 +19,7 @@ const Question = ({ questionSection }) => {
                 <h1 className="text-lg font-bold mb-8 ">{question}</h1>
                 <EyeIcon onClick={() => setCorrect(!correct)} className={`w-4 h-4 ml-6 mt-2 cursor-pointer ${correct === true && 'text-btn-color'}`} />
             </div>
-            <div className="grid grid-cols-2 gap-6 mb-4 ">
+            <div className="grid md:grid-cols-2 gap-6 mb-4 ">
                 {
                     options.map((option, ind) => <Option key={ind} id={id} option={option} handleCorrectAnswer={handleCorrectAnswer}
                         correct={correct}
