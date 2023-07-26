@@ -74,7 +74,7 @@ const Navbar = () => {
                     <ul className="space-y-3">
                         <li>
                             <NavLink
-                                to="/topics"
+                                to="/"
                                 activeClassName="font-semibold text-blue-600"
                                 className="block hover:text-btn-color"
                                 onClick={handleMobileMenuToggle}

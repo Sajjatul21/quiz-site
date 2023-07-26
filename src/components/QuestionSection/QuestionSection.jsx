@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { EyeIcon } from '@heroicons/react/24/solid';
 import { toast } from "react-toastify";
 import Option from "../Option/Option";

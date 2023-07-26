@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { ArrowSmallRightIcon } from '@heroicons/react/24/solid';
 import { useNavigate } from 'react-router-dom';
 
