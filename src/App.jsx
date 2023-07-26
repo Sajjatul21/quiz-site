@@ -20,7 +20,7 @@ function App() {
           element: <Quiz></Quiz>
         },
         {
-          path: '/statistic',
+          path: '/statistics',
           element: <Statistic></Statistic>
         },
         {
