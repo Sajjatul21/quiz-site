@@ -14,7 +14,7 @@ const Question = ({ questionSection }) => {
     };
 
     return (
-        <div className=" w-2/4 bg-dark-blue shadow-xl mt-10 px-10 py-4 border border-gray-500 rounded-md">
+        <div className=" md:w-2/4 bg-dark-blue shadow-xl mt-10 px-10 py-4 border border-gray-500 rounded-md">
             <div className='grid  grid-cols-[11fr,1fr] item'>
                 <h1 className="text-lg font-bold mb-8 ">{question}</h1>
                 <EyeIcon onClick={() => setCorrect(!correct)} className={`w-4 h-4 ml-6 mt-2 cursor-pointer ${correct === true && 'text-btn-color'}`} />

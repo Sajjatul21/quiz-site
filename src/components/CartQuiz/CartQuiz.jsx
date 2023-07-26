@@ -12,7 +12,7 @@ const CartQuiz = ({ quizData }) => {
 
     return (
         <div>
-            <div className="w-64 bg-dark-blue  shadow-xl">
+            <div className="md:w-64 bg-dark-blue  shadow-xl">
                 <figure><img src={logo} alt="quiz" /></figure>
                 <div className="pt-8 pb-4 px-4 mb-8">
                     <h2 className="card-title  flex justify-between">

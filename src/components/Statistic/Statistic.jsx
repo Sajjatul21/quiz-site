@@ -17,12 +17,12 @@ const Statistic = () => {
 
             <LineChart
                 width={350}
-                height={300}
+                height={350}
                 data={data}
                 margin={{
                     top: 5,
-                    right: 30,
-                    left: 20,
+                    right: 10,
+                    left: 0,
                     bottom: 5
                 }}
             >
